@@ -1,0 +1,30 @@
+{
+  "name": "my-strapi-backennd",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.12.5",
+    "@strapi/plugin-users-permissions": "4.12.5",
+    "@strapi/strapi": "4.12.5",
+    "better-sqlite3": "8.5.0",
+    "pg": "^8.11.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1addec6f-66ab-48ab-b868-6af1af6f3ca4"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
