@@ -38,9 +38,6 @@
     "complainerTelephone": {
       "type": "biginteger"
     },
-    "complainerPlaceOfBirth": {
-      "type": "date"
-    },
     "complainerResidence": {
       "type": "string"
     },
@@ -96,6 +93,9 @@
       "type": "string"
     },
     "medicalAssistance1": {
+      "type": "string"
+    },
+    "complainerPlaceOfBirth": {
       "type": "string"
     }
   }
